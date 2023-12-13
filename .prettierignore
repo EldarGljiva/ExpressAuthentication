@@ -3,3 +3,4 @@ header.ejs
 home.ejs
 register.ejs
 login.ejs
+content.ejs
