@@ -1,10 +1,16 @@
 <%- include('partials/header') %>
 
-<form action ="/register" method="post">
-    <input type="email" name="email">
-    <input type="password" name="password">
-    <button type="submit">SUBMIT</button>
-</form>
-
+<div class="container">
+    <div class="flex-container">
+        <form action ="/register" method="post">
+            <input type="email" name="email">
+            <input type="password" name="password">
+            <button type="submit">SUBMIT</button>
+        </form>
+        
+        <a href="/auth/google"><button class="btn-social btn-google">REGISTER WITH GOOGLE</button></a>
+        <a href="/login">Have an account? Login</a>
+    </div>
+</div>
 
 <%- include('partials/footer') %>

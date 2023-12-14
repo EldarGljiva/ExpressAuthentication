@@ -1,9 +1,17 @@
 <%- include('partials/header') %>
 
-<form action ="/login" method="post">
-    <input type="email" name="email">
-    <input type="password" name="password">
-    <button type="submit">SUBMIT</button>
-</form>
+
+<div class="container">
+    <div class="flex-container">
+        <form action ="/login" method="post">
+            <input type="email" name="email">
+            <input type="password" name="password">
+            <button type="submit">SUBMIT</button>
+        </form>
+        <a href="/auth/google"><button class="btn-social btn-google">LOGIN WITH GOOGLE</button></a>
+        <a href="/register">Don't have an account? Register</a>
+    </div>
+</div>
+
 
 <%- include('partials/footer') %>
