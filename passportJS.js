@@ -1,7 +1,6 @@
 import bodyParser from "body-parser";
 import express from "express";
 import mongoose from "mongoose";
-import md5 from "md5";
 import session from "express-session";
 import passport from "passport";
 import passportLocalMongoose from "passport-local-mongoose";
